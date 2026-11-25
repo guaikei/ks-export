@@ -6,6 +6,11 @@ name: ks-export
 description: "快手公开数据结构化导出（只读）：关键词搜视频、博主作品与粉丝数据、视频评论，输出 JSON，不登录不发布。触发词：快手、Kuaishou、kwai、快手搜索、快手评论、快手博主。用户要查快手视频、评论、爆款选题、竞品监控、KOL 筛选或评论舆情时使用；抖音、小红书、B站、微博、公众号不要用本技能。"
 license: MIT
 version: 1.1.3
+display_name: "快手结构化导出｜视频导出CSV·评论导出表格·批量Excel"
+display_name_en: "Kuaishou Export"
+description_zh: "快手公开数据只读导出技能：关键词搜索视频（综合/最新发布/最多点赞排序，时间范围 1日/7日/30日，时长 1分钟内/1-5分钟/5分钟以上）、博主主页作品与粉丝互动数据、单条视频评论，全部以结构化 JSON 输出，可直接导入 Excel / BI 生成报表与 CSV 表格。出参覆盖作者、点赞/评论/分享、标签、链接、音乐、话题。包月搜索 30 条、作品 50 条、评论 60 条，按量单次最多 10000 条。零第三方依赖（Node.js 16.14+），stdout 纯 JSON、日志走 stderr，支持 --save 落盘做周报与选题库。"
+description_en: "Read-only Kuaishou (Kwai) data export skill that turns public data into structured JSON for Excel / BI reporting and CSV delivery. Keyword search for videos with sorting (relevance / newest / most liked), time windows (1d / 7d / 30d) and duration filters (under 1 min / 1-5 min / over 5 min); creator profile posts with follower and engagement stats; single video comments. Output covers author, likes, comments, shares, tags, links, music and topics. Monthly plan: up to 30 searches, 50 post pulls and 60 comment pulls; pay-as-you-go up to 10,000 records per call. Zero third-party dependencies (Node.js 16.14+), pure JSON on stdout, logs on stderr, optional --save for local analysis. Requires GUAIKEI_API_TOKEN."
+author: "新郑市怪奇信息技术工作室"
 metadata:
   openclaw:
     emoji: "📷"
